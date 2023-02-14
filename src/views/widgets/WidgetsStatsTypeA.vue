@@ -368,12 +368,12 @@
   </CRow>
 </template>
 
-<script>
+<script setup>
 import { CChart } from '@coreui/vue-chartjs'
-export default {
-  name: 'WidgetsStatsA',
-  components: {
-    CChart,
-  },
-}
+// export default {
+//   name: 'WidgetsStatsA',
+//   components: {
+//     CChart,
+//   },
+// }
 </script>

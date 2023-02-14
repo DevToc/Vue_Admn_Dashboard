@@ -33,7 +33,7 @@
 <script>
 import ColorTheme from './ColorTheme'
 export default {
-  name: 'Colors',
+  name: 'Home',
   components: { ColorTheme },
 }
 </script>
