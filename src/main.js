@@ -7,13 +7,14 @@ import CoreuiVue from '@coreui/vue'
 import CIcon from '@coreui/icons-vue'
 import { iconsSet as icons } from '@/assets/icons'
 import DocsExample from '@/components/DocsExample'
+import MazPhoneNumberInput from 'maz-ui/components/MazPhoneNumberInput'
 
-const app = createApp(App)
-app.use(store)
-app.use(router)
-app.use(CoreuiVue)
-app.provide('icons', icons)
-app.component('CIcon', CIcon)
-app.component('DocsExample', DocsExample)
-
-app.mount('#app')
+createApp(App)
+  .use(store)
+  .use(router)
+  .use(CoreuiVue)
+  .provide('icons', icons)
+  .component('CIcon', CIcon)
+  .component('MazPhoneNumberInput', MazPhoneNumberInput)
+  .component('DocsExample', DocsExample)
+  .mount('#app')

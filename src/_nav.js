@@ -11,13 +11,13 @@ export default [
   },
   {
     component: 'CNavTitle',
-    name: 'Theme',
+    name: 'Finance',
   },
   {
     component: 'CNavItem',
-    name: 'Colors',
+    name: 'Home',
     to: '/theme/colors',
-    icon: 'cil-drop',
+    icon: 'cil-home',
   },
   {
     component: 'CNavItem',
