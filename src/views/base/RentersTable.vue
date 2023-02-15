@@ -124,7 +124,7 @@ const search = (keyword) => {
             <CTableDataCell>{{ data[3] }}</CTableDataCell>
             <CTableDataCell>{{ data[4] }}</CTableDataCell>
             <CTableDataCell>
-              <a :href="'Loans/' + index">View</a>
+              <a :href="'Renters/' + index">View</a>
             </CTableDataCell>
           </CTableRow>
         </CTableBody>
