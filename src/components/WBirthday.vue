@@ -22,9 +22,6 @@ const datechange = (e) => {
   <div class="datepicker-container">
     <div class="input-date-container">
       <input type="date" name="" id="" @change="datechange" />
-      <!-- <span class="date-text">
-        {{ mdate }}
-      </span> -->
     </div>
   </div>
 </template>
@@ -45,18 +42,7 @@ const datechange = (e) => {
   position: relative;
   border: 1px solid #0f0d2333;
   border-radius: 4px;
-  /* padding-right:; */
 }
-/* .input-date-container span {
-  position: absolute;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #333333;
-  top: 13px;
-  left: 50px;
-  z-index: 10;
-} */
 input {
   width: 100%;
   border: none;
@@ -70,20 +56,7 @@ input {
   margin-left: 20px;
 }
 ::-webkit-datetime-edit-text {
-  /* display: none; */
   padding: 0 0.3em;
-}
-::-webkit-datetime-edit-month-field {
-  /* display: none; */
-}
-::-webkit-datetime-edit-day-field {
-  /* display: none; */
-}
-::-webkit-datetime-edit-year-field {
-  /* display: none; */
-}
-::-webkit-inner-spin-button {
-  /* display: none; */
 }
 ::-webkit-calendar-picker-indicator {
   position: absolute;
