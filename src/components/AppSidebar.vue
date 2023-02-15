@@ -30,7 +30,6 @@
 import { computed } from 'vue'
 import { useStore } from 'vuex'
 import { AppSidebarNav } from './AppSidebarNav'
-// import { logoNegative } from '@/assets/brand/logo-negative'
 const store = useStore()
 const sidebarUnfoldable = computed(() => store.state.sidebarUnfoldable)
 const sidebarVisible = computed(() => store.state.sidebarVisible)

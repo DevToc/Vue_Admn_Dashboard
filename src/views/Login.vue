@@ -26,7 +26,7 @@ import { useRouter } from 'vue-router'
 
 const router = useRouter()
 const handleLogin = () => {
-  router.push('/dashboard')
+  router.push('/finance')
 }
 </script>
 <style scoped>
