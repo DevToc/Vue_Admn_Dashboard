@@ -65,6 +65,11 @@ const routes = [
         component: () => import('@/views/finance/Users.vue'),
       },
       {
+        path: '/finance/Users/:id',
+        name: 'UsersDetail',
+        component: () => import('@/views/finance/UsersDetail.vue'),
+      },
+      {
         path: '/finance/settings',
         name: 'Settings',
         component: () => import('@/views/finance/Settings.vue'),
